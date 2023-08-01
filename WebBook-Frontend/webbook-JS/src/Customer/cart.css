@@ -1,0 +1,163 @@
+.cart-content{
+    background-color: #f8f6f0;
+}
+.book-cart{
+    width: 62%;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-top: 60px;
+}
+.book-cart-left{
+    width: 65%;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.book-cart-left-top{
+    text-align: left;
+}
+.book-cart-left-top table thead{
+    margin-bottom: 40px;
+    border-bottom: 3px solid #999;
+}
+.book-cart-left-top table thead th{
+    color: #777;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.book-cart-left-top table thead th:nth-child(2){
+    text-align: center;
+}
+.book-cart-left-top table thead th:nth-child(3){
+    text-align: center;
+}
+.book-cart-left-top table tbody tr{
+    border-bottom: 1px solid #999;
+}
+.book-cart-left-top table tbody tr td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.book-cart-left-top table tbody tr td:first-child{
+    display: flex;
+}
+.book-cart-left-top table tbody tr td:first-child .img img{
+    max-width: 100px;
+    max-height: 110px;
+    margin-right: 20px;
+}
+.book-cart-left-top table tbody tr td:first-child .content{
+    width: 190px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.book-cart-left-top table tbody tr td:first-child .content p:nth-child(1){
+    margin-bottom: 10px;
+}
+.book-cart-left-top table tbody tr td:first-child .content p:nth-child(2){
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+.book-cart-left-top table tbody tr td:nth-child(2){
+    width: 20%;
+    text-align: center;
+}
+.book-cart-left-top table tbody tr td:nth-child(2) input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgb(179, 150, 150);
+    font-size: 13px;
+    background-color: #ffffff;
+}
+.book-cart-left-top table tbody tr td:nth-child(2) button{
+    width: 25px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgb(179, 150, 150);
+    font-size: 14px;
+}
+.book-cart-left-top table tbody tr td:nth-child(3){
+    text-align: center;
+    width: 30%;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.book-cart-left-top table tbody tr td:nth-child(4){
+    width: 7%;
+    text-align: center;
+    font-size: 20px;
+}
+.book-cart-left-top table tbody tr td:nth-child(4):hover{
+    color: red;
+}
+.book-cart-bottom{
+    text-align: left;
+    margin-top: 20px;
+}
+.book-cart-bottom button{
+    width: 40%;
+    border: 2px solid #446084;
+    height: 40px;
+    background-color: #ffffff;
+    color: #446084;
+    font-weight: bold;
+}
+.book-cart-bottom button:hover{
+    background-color: #446084;
+    color: #ffffff;
+}
+.book-cart-right{
+    margin-left: 20px;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.book-cart-right table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.book-cart-right table tr{
+    border-bottom: 2px solid #c9c5c5;
+}
+.book-cart-right table th{
+    color: #777;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.book-cart-right table tr:first-child td{
+    color: black;
+}
+.book-cart-right table td{
+    text-align: right;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.book-cart-right-button button{
+    width: 100%;
+    background-color: red;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+}
+.book-cart-right-button button:hover{
+    background-color: rgb(216, 42, 42);
+}
+.cart-bottom-a{
+    height: 252px;
+}
+.cart-bottom{
+    height: 150px;
+}

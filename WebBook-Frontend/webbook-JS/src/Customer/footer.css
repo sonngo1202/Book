@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #0071bc;
+}
+.footer-left-content{
+    text-align: left;
+}
+.footer-left-content h5{
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgb(234, 229, 215);
+}
+.footer-left-content p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-right-content{
+    text-align: left;
+    margin-left: 30%;
+}
+.footer-right-content p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}

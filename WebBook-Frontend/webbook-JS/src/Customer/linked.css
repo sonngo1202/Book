@@ -1,0 +1,49 @@
+.link1 {
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.link2{
+    margin-top: 0;
+    text-align: left;
+    margin-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.link1 a:nth-child(1){
+    color: #a69292;
+    text-decoration: none;
+}
+
+.link1 a:first-child:hover {
+    color: rgb(0, 0, 0);
+}
+
+.link1 a:nth-child(3) {
+    font-weight: bold;
+}
+
+.link1 span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.link2 a:nth-child(1){
+    color: #a69292;
+    text-decoration: none;
+}
+
+.link2 a:first-child:hover {
+    color: rgb(0, 0, 0);
+}
+
+.link2 a:nth-child(3) {
+    font-weight: bold;
+}
+
+.link2 span {
+    margin-left: 10px;
+    margin-right: 10px;
+}

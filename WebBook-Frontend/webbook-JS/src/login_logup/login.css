@@ -1,0 +1,88 @@
+.login {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-content {
+    background-color: #fefefe;
+    margin: 6% auto;
+    border: 1px solid #888;
+    width: 40%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.login-content-cancel{
+    text-align: right;
+    justify-content: left;
+}
+.login-content-cancel button{
+    border: none;
+    background-color: #ffffff;
+    width: 50px;
+}
+.login-content-cancel button :hover{
+    background-color: red;
+    color: #ffffff;
+}
+.login-content-cancel p{
+    margin-right: 0px;
+    width: 110%!important;
+}
+.login-content h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login-content-item{
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.login-content-item span{
+    color: red;
+    font-size: 16px;
+    padding-left: 5px;
+}
+.login-content-item input{
+    width: 80%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.login-content-button{
+    margin-top: 40px;
+    font-size:28px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 20%;
+    margin-bottom: 60px;
+}
+.login-content-button button:first-child{
+    margin-bottom: 12px;
+    color: #ffffff;
+    background-color: rgb(13, 134, 226);
+}
+.login-content-button button:first-child:hover{
+    background-color: rgb(13, 190, 226);
+}
+.login-content-button button{
+    width: 80%;
+    border-radius: 7px;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(255, 128, 0);
+}
+.login-content-button button:hover{
+    background-color: rgb(255, 180, 0);
+}
+.login-content-button p{
+    margin-left: 39%;
+    font-size: 24px;
+    font-weight: normal;
+}

@@ -1,0 +1,275 @@
+.detail-book {
+    background-color: #f8f6f0;
+    padding: 20px 30px;
+}
+
+.detail-book-content {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.detail-book-left {
+    width: 70%;
+    border-right: 1px solid #dccccc;
+    padding-right: 30px;
+}
+
+.detail-book-left-top {
+    display: flex;
+}
+
+.detail-book-left-img {
+    margin-left: 20px;
+    height: 500px;
+}
+
+.detail-book-left-img img {
+    max-width: 370px;
+    max-height: 500px;
+}
+
+.detail-book-left-content {
+    text-align: left;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.detail-book-left-content-link {
+    margin-bottom: 8px;
+}
+
+.detail-book-left-content-info {
+    border-bottom: 1px solid #8a8787;
+    padding-bottom: 10px;
+}
+
+.detail-book-left-content-info p {
+    margin-bottom: 5px;
+}
+
+.detail-book-left-content-price{
+    margin-top: 7px;
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.detail-book-left-content-des{
+    margin-top: -10px;
+}
+
+.detail-book-left-content-action {
+    margin-top: 30px;
+}
+
+.detail-book-left-content-action button:nth-child(1) {
+    width: 30px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgb(179, 150, 150);
+    font-size: 18px;
+}
+
+.detail-book-left-content-action button:nth-child(1):hover {
+    background-color: #777;
+}
+
+.detail-book-left-content-action input {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid rgb(179, 150, 150);
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+.detail-book-left-content-action button:nth-child(3) {
+    width: 30px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid rgb(179, 150, 150);
+    font-size: 18px;
+}
+
+.detail-book-left-content-action button:nth-child(3):hover {
+    background-color: #777;
+}
+
+.detail-book-left-content-action button:nth-child(4) {
+    background-color: #f4a733;
+    border: none;
+    margin-left: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.detail-book-left-content-action button:nth-child(4):hover {
+    background-color: #a96500;
+}
+/* Đánh giá */
+.detail-book-left-bottom {
+    margin-top: 80px;
+}
+/* Số lượng đánh giá */
+.detail-book-left-count-comment {
+    background-color: #0071bc;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+    margin-left: 25px;
+}
+
+.detail-book-left-count-comment p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/* Các đánh giá */
+.detail-book-left-comment-content {
+    text-align: left;
+    margin-left: 25px;
+}
+.detail-book-left-comment-content>p{
+    margin-bottom: 50px;
+}
+.detail-book-left-comment-content-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+/* Đánh giá chi tiết*/
+.detail-book-left-comment-content-item {
+    margin-left: 25px;
+    border-bottom: 1px solid #8a8787;
+    margin-bottom: 15px;
+}
+
+.detail-book-left-comment-content-item h6 {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    float: right;
+    cursor: pointer;
+    color: #888;
+}
+
+.rating label:before {
+    content: "\2605";
+}
+
+.rating input:checked~label {
+    color: #f90;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    color: #f90;
+}
+
+.detail-book-left-comment-content-item p {
+    font-size: 18px;
+    font-family: serif;
+    color: #333;
+}
+.detail-book-left-comment-input{
+    text-align: left;
+    margin-left: 20px;
+    border: 2px solid #014f84;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail-book-left-comment-input h5{
+    font-weight: bold;
+}
+.detail-book-left-comment-input p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.detail-book-left-comment-input p:nth-child(2){
+    margin-bottom: 0;
+}
+.detail-book-left-comment-input span{
+    color: red;
+}
+.detail-book-left-comment-input textarea{
+    border: 1px solid #c6c0c0;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+.detail-book-left-comment-input button{
+    background-color: #014f84;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    width: 12%;
+    height: 40px;
+    margin-top: 15px;
+}
+.detail-book-left-comment-input button:hover{
+    background-color: #0071bc;
+}
+/* Sản phẩm liên quan */
+.detail-book-right{
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.detail-book-right-title{
+    text-align: left;
+    background-color: #0071bc;
+    padding-left: 10px;
+}
+.detail-book-right-title h4{
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.detail-book-right-content{
+    margin-top: 25px;
+}
+.detail-book-right-content-item{
+    display: flex;
+    text-align: left;
+    margin-top: 20px;
+    border-bottom: 1px solid #dccccc;
+    padding-bottom: 10px;
+}
+.detail-book-right-content-item-img img{
+    max-width: 90px;
+    max-height: 160px;
+}
+.detail-book-right-content-item-info{
+    margin-left: 15px;
+}
+.detail-book-right-content-item-info p{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+

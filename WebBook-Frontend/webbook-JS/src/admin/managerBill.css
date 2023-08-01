@@ -1,0 +1,57 @@
+.manager-bill-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+
+.manager-bill-header img {
+    width: 150px;
+    height: auto;
+}
+
+.manager-bill-header button {
+    background-color: white;
+    color: rgb(233, 89, 12);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 80%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.manager-bill-header button:hover {
+    opacity: 0.7;
+}
+
+.manager-bill-header p {
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(233, 89, 12);
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 16px;
+}
+.manager-bill-title{
+    margin-top: 150px;
+    display: flex;
+}
+.manager-bill-title i{
+    font-size: 30px;
+    padding-top: 12px;
+}
+.manager-bill-title-left{
+    margin-left: 41.3%;
+}
+.manager-bill-title-center{
+    margin-left: 40.5%;
+}

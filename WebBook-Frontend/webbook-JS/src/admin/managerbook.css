@@ -1,0 +1,171 @@
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 60px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top:0;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+header .scroll-to-top-button{
+  color: black;
+  border-radius: 50%;
+  font-size: 16px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+header .scroll-to-top-button:hover {
+  opacity: 0.7;
+}
+
+header .visible {
+  display: block;
+}
+
+header .invisible {
+  display: none;
+}
+
+header button {
+  background-color: white;
+  color: rgb(233, 89, 12);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 2%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+header button:hover{
+  opacity: 0.7;
+}
+
+header p{
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: rgb(233, 89, 12);
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 30px;
+  padding: 10px;
+  margin-top: 16px;
+}
+
+header input {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 55%;
+}
+
+main {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+.manager-book-icon{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.manager-book-icon i{
+  font-size: 30px;
+  padding-top: 12px;
+}
+.manager-book-icon-title-center{
+  margin-left: 43%;
+}
+.manager-book-icon-title{
+  margin-left: 43.8%;
+}
+
+main>button {
+  margin-top: 10px;
+  font-size: 20px !important;
+  width: 100%;
+}
+
+main table button:first-child{
+  margin-right: 20px;
+}
+main table button{
+  width: 20%;
+  text-align: center;
+}
+
+main table th{
+  font-size: 18px !important;
+}
+
+main table td {
+  font-size: 18px !important;
+}
+
+main table td button{
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  width: 40%;
+  border-radius: 8px;
+}
+
+main table td button:first-child{
+  background-color: rgb(57, 115, 224);
+  margin-left: 6%;
+}
+
+main table td button:first-child:hover{
+  background-color: rgb(0, 166, 255);
+}
+
+main table td button:nth-child(2){
+  background-color: rgb(185, 24, 9);
+}
+
+main table td button:nth-child(2):hover{
+  background-color: red;
+}
+
+main table td:first-child {
+  width: 5%;
+}
+
+main table td:nth-child(2) {
+  width: 15%;
+}
+
+main table td:nth-child(3) {
+  width: 14%;
+}
+
+main table td:nth-child(4) {
+  width: 10%;
+}
+main table td:nth-child(5){
+  width: 10%;
+}
+main table td:nth-child(6){
+  width: 6%;
+}
+main table td:nth-child(8){
+  width: 8%;
+}
+main table td:nth-child(9){
+  width: 12%;
+}
+main table td:nth-child(10){
+  width: 13%;
+  text-align: left;
+}

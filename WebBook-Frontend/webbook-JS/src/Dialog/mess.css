@@ -1,0 +1,62 @@
+.mess {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mess-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px 30px 20px;
+  border: 1px solid #888;
+  width: 25%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+
+.mess-content h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.mess-content img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.mess-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.mess-content input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.mess-content-button {
+  margin-top: 30px;
+}
+
+.mess-content-button button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.mess-content button:hover {
+  background-color: #45a049;
+}
+

@@ -1,0 +1,50 @@
+.bill-book-content{
+    margin-top: 60px;
+    width: 60%;
+    margin-left: 20%;
+    min-height: 452px;
+    margin-bottom: 100px;
+}
+.bill-book-content table{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bill-book-content table th{
+    border: 1px solid #999;
+    background-color: #e6e0e0;
+    padding: 10px 20px;
+}
+.bill-book-content table td{
+    border: 1px solid #d0cece;
+    padding: 15px 10px;
+}
+.bill-book-content table td:first-child{
+    color: blue;
+    width: 14%;
+    font-weight: bold;
+}
+.bill-book-content table td:nth-child(2){
+    width: 15%;
+}
+.bill-book-content table td:nth-child(4){
+    width: 12%;
+    font-weight: bold;
+}
+.bill-book-content table td:nth-child(5){
+    font-weight: bold;
+    color: red;
+    width: 13%;
+}
+.bill-book-content table td:nth-child(6){
+    width: 11%;
+}
+.bill-book-content table td:nth-child(6) button{
+    border: none;
+    background-color: rgb(5, 85, 189);
+    height: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.bill-book-content table td:nth-child(6) button:hover{
+    background-color: rgb(0, 110, 255);
+}
